@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: #7DCE13;
+  }
+  
+  #level-title {
+    font-family:'Square Peg', cursive;
+    font-size: 6rem;
+    margin:  0px auto;
+    color: #293462;
+    
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 5px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #D61C4E;
+    border-radius: 20%;
+    background-color: #FFF80A;
+    box-shadow: 0px 10px 0px #751a32 ;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
